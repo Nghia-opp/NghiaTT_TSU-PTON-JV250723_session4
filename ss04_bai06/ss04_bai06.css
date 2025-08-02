@@ -1,0 +1,39 @@
+nav {
+    background-color: rgb(173, 231, 245);
+    color: crimson;
+    /* điều chỉnh hàng cột dịch sang trái */
+    float: left; 
+    height: 200px ;
+    width: 150px;
+}
+aside {
+    margin-bottom: 0;
+    padding-top: 20px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    line-height: 40px;
+    background-color: khaki;
+}
+a {
+    height: 200px;
+    width: 150px;
+    text-decoration: none;
+    background-color:rgb(173, 231, 245) ;
+}
+a:link {
+    background-color:  rgb(173, 231, 245);
+}
+a:visited {
+    background-color:khaki;
+}
+a:hover{
+    background-color: greenyellow;
+}
+ul li.blue {
+    background-color: whitesmoke;
+}
